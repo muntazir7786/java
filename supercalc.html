@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Calculator</title>
+    <style>
+    </style>
+</head>
+<body>
+    <div style="align-items: center; text-align: center;">
+    <h1 style="text-align: center; color: navy;">Calculator</h1>
+
+    <input type="text" name="" id="inp" readonly>
+
+    <button onclick="clearDisplay()">Clear All</button>
+    <button onclick="clearLast()">Clear</button>
+    </div>
+
+<div class="buttons"></div>
+    <button onclick="pressS('1')">1</button>
+    <button onclick="pressS('2')">2</button>
+    <button onclick="pressS('3')">3</button>
+    <button onclick="pressS('+')">+</button>
+    <br>
+    <button onclick="pressS('4')">4</button>
+    <button onclick="pressS('5')">5</button>
+    <button onclick="pressS('6')">6</button>
+    <button onclick="pressS('-')">-</button>
+    <br>
+    <button onclick="pressS('7')">7</button>
+    <button onclick="pressS('8')">8</button>
+    <button onclick="pressS('9')">9</button>
+    <button onclick="pressS('')">x</button>
+    <br>
+    <button onclick="pressS('0')">0</button>
+    <button onclick="pressS('.')">.</button>
+    <button onclick="eq()">=</button>
+    <button onclick="pressS('/')">/</button>
+    <br>
+</div>
+
+
+    <script src="supercalculator.js"></script>
+</body>
+</html>
